@@ -36,7 +36,7 @@ exports.sendsmswithtwilio = (payload, res) => {
 
 }
 
-//===========
+//==================================================
 exports.sendmessagewithmsgbird = (payload, res) => {
 
     var messagebird = require('messagebird')("AqSo7w6VumVrn5RK7ReDNksWI", null, ["ENABLE_CONVERSATIONSAPI_WHATSAPP_SANDBOX"]);
